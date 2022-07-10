@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circunferência</title>
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: yellow;
+        }
+        p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fórmula para Circunferência:</h1>
+    <p>C = 2πr</p>
+    <script>
+      var diam=Number.parseFloat(window.prompt(`Digite o diametro:`))
+      var raio=diam/2
+      var cir=2*3.1415*raio
+     window.alert(`A circunferencia é de: ${cir.toFixed(1)}`)// to.Fixed(2) para mostrar n casa apos a virgula
+    </script>
+</body>
+</html>
